@@ -1,0 +1,118 @@
+body{
+    background-color:orange;
+    font-family: "Audiowide", sans-serif;
+    
+}
+p {
+    font-size: 1.25cm;
+    font-weight: lighter;
+    color:white;
+    text-align: center;
+
+}
+#button {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+button:hover{
+    background-color: white;
+    color:black;
+}
+button{
+    font-family: "Audiowide", sans-serif;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 0.8cm;
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    border: 3px solid rgb(192, 17, 17);
+    outline: none;
+}
+
+#dm{
+    border-radius: 0px;
+    margin:1px;
+    padding:1px;
+    font-size: 14px;
+    position: relative;
+    text-align: left;
+}
+                        /* Clock button */
+#timebutton, #contactbutton{
+    font-size: 20px;
+    border-radius: 0px;
+    padding:20px;
+    margin-right: 2px;
+    border: 3px solid white;
+}
+#time{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#currenttime{
+    opacity: 1;
+    font-size: 0.5cm;
+    color: black;
+    font-weight: bold;  
+    margin: 0px;
+}
+.timebutton {
+    display: flex;
+    flex-direction: column;
+}
+
+                        /* Clock button */
+
+                        /* Input form  */
+::placeholder{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input {
+    outline: none;  
+    
+    border-radius: 20px;
+    width: 440px;
+    opacity: 0;
+    font-size: 1.25cm;
+    font-weight: lighter;
+    color:white;
+    size: 30px;
+    background-color: orange;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    right: 200px;
+    bottom: 230px;
+    border: solid black;
+}
+                        /* Input form  */
+#contactshow, #gmail{
+    font-size:0.5cm;  
+
+    padding: 0px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+}
